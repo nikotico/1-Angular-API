@@ -1,0 +1,16 @@
+Se puede hacer
+	npm install
+Para que instale todas la dependencias que esta en el package.json
+----------------------------------------------------------------
+Para crear una api con node
+En la consola dentro de la carpeta donde lo quiero
+Pasos:
+1. npm init
+    despues puedo ingresar el nombre, version, description, etc...
+2. npm install express --save //Con el --save lo guarda en mi proyecto
+3. npm install body-parser --save
+4. npm install connect-multiparty --save
+5. npm install nodemon --save dev //Buenisimo para refrescar el sever. Se puede quitar el dev
+6. npm install mongoose --save //Fundamental para mongo, that means que no tiene que estar en todos los proyectos
+
+ejecutar se hace con un "npm start" y eso esta en el package.json ya configurado
